@@ -1,0 +1,176 @@
+/* ====================== record status =================== */
+.markdown-container .status-yellow {
+    color:darkblue;
+    background-color:rgba(225, 230, 37, 0.68);
+    padding:5px;
+    border-radius:10px;
+    display: inline-block;
+    margin: 2px;
+}
+
+/* record status: detail context
+*/
+.markdown-container .record-Incomplete {
+    color:darkblue;
+    background-color:rgba(221, 170, 146, 0.68);
+    padding:5px;
+    border-radius:10px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.markdown-container .record-Complete {
+    color:darkblue;
+    background-color:rgba(113, 195, 129, 0.68);
+    padding:5px;
+    border-radius:10px;
+    display: inline-block;
+    margin: 2px;
+}
+
+/* -- record status: compact context */
+.markdown-container .record-Complete-compact, .markdown-container .record-Incomplete-compact {
+    padding-left: 17px;
+    position: relative;
+}
+
+.markdown-container .record-Complete-compact:before, .markdown-container .record-Incomplete-compact:before {
+    content: "";
+    left: 0px;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.markdown-container .record-Complete-compact:before {
+    background-color: rgba(113, 195, 129, 0.68);
+}
+
+.markdown-container .record-Incomplete-compact:before {
+    background-color: rgba(221, 170, 146, 0.68);
+}
+
+
+/* ====================== curation status =================== */
+
+
+.markdown-container .curation-Release {
+    background-color:rgba(113, 195, 129, 0.68);
+}
+
+.markdown-container .curation-In-Preparation, .markdown-container .curation-PI-Review, .markdown-container .curation-Submitted, .markdown-container .curation-Amendement {
+    background-color:rgba(221, 170, 146, 0.68);
+}
+
+.markdown-container .curation-Data-Hub-Attention, .markdown-container .curation-Data-Hub-Processing, .markdown-container .curation-Biocurator-Review, .markdown-container .curation-Release {
+    background-color:rgba(220, 220, 220, 0.68);
+}
+
+.markdown-container .curation-Release, .markdown-container .curation-In-Preparation, .markdown-container .curation-PI-Review, .markdown-container .curation-Submitted, .markdown-container .curation-Amendement, .markdown-container .curation-Data-Hub-Attention, .markdown-container .curation-Data-Hub-Processing, .markdown-container .curation-Biocurator-Review, .markdown-container .curation-Release {
+    color:darkblue;
+    padding:5px;
+    border-radius:10px;
+    display: inline-block;
+    margin: 2px;
+}
+
+/* -- detail status: compact context */
+.markdown-container .curation-In-Preparation-compact, .markdown-container .curation-PI-Review-compact, .markdown-container .curation-Submitted-compact, .markdown-container .curation-Data-Hub-Attention-compact, .markdown-container .curation-Data-Hub-Processing-compact, .markdown-container .curation-Biocurator-Review-compact, .markdown-container .curation-Amendement-compact, .markdown-container .curation-Release-compact {
+    padding-left: 17px;
+    position: relative;
+}
+
+.markdown-container .curation-In-Preparation-compact:before, .markdown-container .curation-PI-Review-compact:before, .markdown-container .curation-Submitted-compact:before, .markdown-container .curation-Data-Hub-Attention-compact:before, .markdown-container .curation-Data-Hub-Processing-compact:before, .markdown-container .curation-Biocurator-Review-compact:before, .markdown-container .curation-Amendement-compact:before, .markdown-container .curation-Release-compact:before {
+    content: "";
+    left: 0px;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.markdown-container .curation-Release-compact:before {
+    background-color: rgba(113, 195, 129, 0.68);
+}
+
+.markdown-container .curation-In-Preparation-compact:before, .markdown-container .curation-PI-Review-compact:before, .markdown-container .curation-Submitted-compact:before, .markdown-container .curation-Amendement-compact:before {
+    background-color: rgba(221, 170, 146, 0.68);
+}
+
+.markdown-container .curation-Data-Hub-Attention-compact:before, .markdown-container .curation-Data-Hub-Processing-compact:before, .markdown-container .curation-Biocurator-Review-compact:before {
+    background-color: rgba(220, 220, 220, 0.68);
+}
+
+/* ======================== Imaging ======================== */
+/* Image:Sample */
+.s_Imaging.t_Image th.c_TzoBIZ6WmKuKlRm9i42GRw {
+    min-width: 180px;
+}
+
+/* make sure all the headers are displayed on the first line */
+.s_Imaging.t_Image th {
+    vertical-align: top;
+}
+/* move the sort icon to be aligned with the first line */
+.s_Imaging.t_Image th .table-heading-icons {
+    top: 8px;
+}
+
+/* Sample_Number (agg) */
+.s_Imaging.t_Image th.c_DjUbQNMgB7pHD8a58ObukQ {
+    /* ensure breaking of the content in multiple lines*/
+    white-space: inherit !important;
+    /* ensure two lines (both rules needed): */
+    min-width: 90px;
+    width: 90px;
+}
+
+/* Image_Date */
+.s_Imaging.t_Image th.c_Image_Date {
+    /* ensure breaking of the content in multiple lines*/
+    white-space: inherit !important;
+    /* ensure two lines (both rules needed): */
+    min-width: 100px;
+    width: 100px;
+}
+
+/* Post-treatment Day */
+.s_Imaging.t_Image th.c_Post-treatment_Day {
+    /* ensure breaking of the content in multiple lines*/
+    white-space: inherit !important;
+    /* ensure two lines (both rules needed): */
+    min-width: 155px;
+    width: 155px;
+}
+
+/* Image Dimension */
+.s_Imaging.t_Image th.c_XQIE5gbYfBXKB8mcKHkzEw {
+    /* ensure breaking of the content in multiple lines*/
+    white-space: inherit !important;
+    /* ensure two lines (both rules needed): */
+    min-width: 117px;
+    width: 117px;
+}
+
+/* ============================ Sample ================================= */
+.s_Sample.t_Sample th.c_Label{
+    min-width: 220px;
+}
+
+.s_Sample.t_Sample th.c_Notes{
+    min-width: 200px;
+}
+
+/* -- Culture_Medium_Supplement pseudo column -- */
+.s_Sample.t_Culture_Medium th.c_jNmczFSzs3PiyN2k9bcuGQ {
+    min-width: 260px;
+}
+
+/* -- Matrix_Supplement pseudo column */
+.s_Sample.t_Matrix th.c_brBkYlrnYeSLz8Y65RBcTA {
+    min-width: 260px;
+}
+

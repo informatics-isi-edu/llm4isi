@@ -1,0 +1,17 @@
+#home.container, #content.container {
+    padding-bottom: 220px;
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+#content.container {
+    width: 820px;
+}
+
+.innercontent {
+    padding: 20px 10%;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+

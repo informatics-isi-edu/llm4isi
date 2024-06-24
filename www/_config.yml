@@ -1,0 +1,14 @@
+# Site settings
+name: DERIVA Site Template
+description: This is a template. It should be further customized to suit your needs.
+baseurl: "/" # the subpath of your site, e.g. /blog/
+#url: "https://derivacloud.org" # the base hostname & protocol for your site
+
+exclude: ['src/']
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+#paginate: 10
+#paginate_path: "news/page:num/"

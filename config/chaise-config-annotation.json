@@ -17,12 +17,16 @@
                             "name": "Proposal Files"
                         },
                         {
-                            "url": "/chaise/recordset/#llm4isi/llm4isi:Proposal_Type",
-                            "name": "Proposal Type"
+                            "url": "/chaise/recordset/#llm4isi/llm4isi:Proposal_Contract_Type",
+                            "name": "Proposal Contract"
                         },
                         {
-                            "url": "/chaise/recordset/#llm4isi/llm4isi:Proposal_Status",
+                            "url": "/chaise/recordset/#llm4isi/llm4isi:Proposal_Status_Type",
                             "name": "Proposal Status"
+                        },
+                        {
+                            "url": "/chaise/recordset/#llm4isi/llm4isi:Person",
+                            "name": "Person"
                         },
                         {
                             "url": "/chaise/recordset/#llm4isi/llm4isi:Dataset",
@@ -87,6 +91,18 @@
                 {
                     "name": "Documentation",
                     "children": [
+                        {
+                            "url": "https://github.com/informatics-isi-edu/deriva-ml/blob/main/docs/VM_setup_instruction.md",
+                            "name": "VM Setup Instruction"
+                        },
+                        {
+                            "url": "https://github.com/informatics-isi-edu/deriva-ml/blob/main/docs/ml_workflow_instruction.md",
+                            "name": "ML Notebook Instruction"
+                        },
+                        {
+                            "url": "https://github.com/informatics-isi-edu/deriva-ml/blob/main/docs/deriva_ml_structure.md",
+                            "name": "Deriva-ML Instruction"
+                        }
                     ]
                 }
             ]

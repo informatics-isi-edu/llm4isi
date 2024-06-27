@@ -15,7 +15,7 @@ Click on the appropriate link below to request joining that group:
 
 | Group_Name_and_Link                                                                         | Description                                                                         |
 |---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| [llm4isi-readers](https://app.globus.org/groups/c2def0ae-332c-11ef-8ec4-1df34dfa5fb6/about) | Read only access to _all_ project data.                                             |
+| [llm4isi-readers](https://app.globus.org/groups/67630366-341a-11ef-8741-61c18cf68332/about) | Read only access to _all_ project data.                                             |
 | [llm4isi-writers](https://app.globus.org/groups/4906b470-3330-11ef-ad7c-c5e0bfb8d54a/about) | Read and write access to self-owned project data and compute resources.             |
 | llm4isi-curators                                                                            | Invitation only. Read and write access to _all_ project data and compute resources. |
 

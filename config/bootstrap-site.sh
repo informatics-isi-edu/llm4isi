@@ -66,4 +66,4 @@ deriva-hatrac-cli --host ${host} setacl /hatrac/ subtree-update \
 deriva-hatrac-cli --host ${host} setacl /hatrac/ subtree-read \
 'https://auth.globus.org/d2f1eb28-3330-11ef-ad7c-c5e0bfb8d54a' \
 'https://auth.globus.org/4906b470-3330-11ef-ad7c-c5e0bfb8d54a' \
-'https://auth.globus.org/c2def0ae-332c-11ef-8ec4-1df34dfa5fb6'
+'https://auth.globus.org/67630366-341a-11ef-8741-61c18cf68332'

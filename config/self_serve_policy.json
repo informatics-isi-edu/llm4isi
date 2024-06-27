@@ -7,7 +7,7 @@
     "project-admins": ["https://auth.globus.org/324ff4ca-332c-11ef-ad7c-c5e0bfb8d54a"],
     "project-curators": ["https://auth.globus.org/d2f1eb28-3330-11ef-ad7c-c5e0bfb8d54a"],
     "project-writers": ["https://auth.globus.org/4906b470-3330-11ef-ad7c-c5e0bfb8d54a"],
-    "project-users": ["https://auth.globus.org/c2def0ae-332c-11ef-8ec4-1df34dfa5fb6"],
+    "project-users": ["https://auth.globus.org/67630366-341a-11ef-8741-61c18cf68332"],
 
     "empty": [],
     "public": ["*"],

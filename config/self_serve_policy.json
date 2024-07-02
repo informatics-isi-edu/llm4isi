@@ -42,6 +42,14 @@
       "update": "curators",
       "delete": "curators",
       "owner": "admins"
+    },
+    "curator": {
+      "select": "users",
+      "enumerate": "public",
+      "insert": "curators",
+      "update": "curators",
+      "delete": "curators",
+      "owner": "admins"
     }
   },
 
@@ -68,6 +76,14 @@
     {
       "schema_pattern": "^(?!(^public)$).+$",
       "table_pattern": ".*",
+      "acl_bindings": [
+        "row_owner_guard"
+      ]
+    },
+    {
+      "schema": "llm4isi",
+      "table": "Person",
+      "acl": "curator",
       "acl_bindings": [
         "row_owner_guard"
       ]

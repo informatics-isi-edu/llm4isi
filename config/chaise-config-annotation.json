@@ -2,6 +2,10 @@
     "tag:isrd.isi.edu,2019:chaise-config": {
         "headTitle": "LLM4ISI",
         "editRecord": true,
+        "defaultTable": {
+            "schema": "llm4isi",
+            "table": "Proposal"
+        },
         "navbarMenu": {
             "newTab": false,
             "children": [
@@ -17,12 +21,20 @@
                             "name": "Proposal Files"
                         },
                         {
-                            "url": "/chaise/recordset/#llm4isi/llm4isi:Proposal_Contract_Type",
-                            "name": "Proposal Contract"
+                            "url": "/chaise/recordset/#llm4isi/llm4isi:Proposal_Status",
+                            "name": "Proposal Status"
                         },
                         {
-                            "url": "/chaise/recordset/#llm4isi/llm4isi:Proposal_Status_Type",
-                            "name": "Proposal Status"
+                            "url": "/chaise/recordset/#llm4isi/llm4isi:Proposal_Sponsor",
+                            "name": "Proposal Sponsor"
+                        },
+                        {
+                            "url": "/chaise/recordset/#llm4isi/llm4isi:Proposal_Customer",
+                            "name": "Proposal Customer"
+                        },
+                        {
+                            "url": "/chaise/recordset/#llm4isi/llm4isi:Contract_Type",
+                            "name": "Proposal Contract"
                         },
                         {
                             "url": "/chaise/recordset/#llm4isi/llm4isi:Person",
@@ -35,14 +47,6 @@
                         {
                             "name": "Process tracking",
                             "children": [
-                                {
-                                    "url": "/chaise/recordset/#llm4isi/llm4isi:Process",
-                                    "name": "Process"
-                                },
-                                {
-                                    "url": "/chaise/recordset/#llm4isi/llm4isi:Process_Tag",
-                                    "name": "Process Tag"
-                                },
                                 {
                                     "url": "/chaise/recordset/#llm4isi/llm4isi:Workflow",
                                     "name": "Workflow"

@@ -50,12 +50,21 @@
       "update": "curators",
       "delete": "curators",
       "owner": "admins"
+    },
+    "restricted_visibility": {
+      "select": "curators"
     }
   },
 
   "acl_bindings": {
     "row_owner_guard": {
       "types": ["update", "delete"],
+      "projection": ["RCB"],
+      "projection_type": "acl"
+    },
+    "owner_access_guard": {
+      "scope_acl": "users",
+      "types": ["select", "update", "delete"],
       "projection": ["RCB"],
       "projection_type": "acl"
     }
@@ -82,10 +91,18 @@
     },
     {
       "schema": "llm4isi",
-      "table": "Person",
+      "table_pattern": "^Person$|^Proposal_Status$|^Proposal_Customer$|^Proposal_Sponsor$|^Contract_Type$|^Proposal_File_Type$",
       "acl": "curator",
       "acl_bindings": [
         "row_owner_guard"
+      ]
+    },
+    {
+      "schema": "llm4isi",
+      "table": "Proposal",
+      "acl": "restricted_visibility",
+      "acl_bindings": [
+        "owner_access_guard"
       ]
     }
   ]

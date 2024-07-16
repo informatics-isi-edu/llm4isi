@@ -118,6 +118,7 @@ def define_table_Proposal_Sponsor():
     )
     return table_def
 
+
 def define_table_Proposal_Status():
     table_def = Table.define(
         'Proposal_Status',
@@ -183,6 +184,7 @@ def define_table_Proposal():
     )
     return table_def
 
+
 def define_asset_Proposal_Files(schema):
     table_def = Table.define_asset(
         sname=schema,
@@ -242,14 +244,11 @@ def add_association_tables(schema, delete_if_exist=True):
 
 
 def add_vocab_tables(model, schema_name):
-    add_vocab_table(model, schema_name, "Proposal", "Proposal_Status_Vocab",
-                    {"tag:misd.isi.edu,2015:display": {"name": "Proposal Status"}})
-    add_vocab_table(model, schema_name, "Proposal", "Proposal_Sponsor_Vocab",
-                    {"tag:misd.isi.edu,2015:display": {"name": "Proposal Sponsor"}})
-    add_vocab_table(model, schema_name, "Proposal", "Proposal_Customer_Vocab",
-                    {"tag:misd.isi.edu,2015:display": {"name": "Proposal Customer"}})
-    add_vocab_table(model, schema_name, "Proposal", "Contract_Type_Vocab",
-                    {"tag:misd.isi.edu,2015:display": {"name": "Contract Type"}})
+    add_vocab_table(model,
+                    schema_name,
+                    root_table="Proposal_Files",
+                    vocab_table="Proposal_File_Type",
+                    annotations={"tag:misd.isi.edu,2015:display": {"name": "Proposal File Type"}})
 
 
 def main(host, catalog_id, schema_name, delete_if_existing):
@@ -257,6 +256,7 @@ def main(host, catalog_id, schema_name, delete_if_existing):
     schema = create_schema_if_not_exist(model, schema_name)
     setup_tables(schema, delete_if_existing)
     add_association_tables(schema, delete_if_existing)
+    add_vocab_tables(model, schema_name)
 
 
 # -- =================================================================================
